@@ -1,0 +1,60 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level1.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Helpset.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "Tiles.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "level0.tmx": {
+            "scale": 0.938125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 441.30579613590936,
+                "y": 207.86142571618922
+            }
+        },
+        "level1.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 442.6666666666667,
+                "y": 69.33333333333337
+            }
+        }
+    },
+    "last.imagePath": "D:/projects/CoolMario/resources/tiled2",
+    "map.height": 17,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 50,
+    "openFiles": [
+        "Helpset.tsx",
+        "Tiles.tsx",
+        "level1.tmx"
+    ],
+    "project": "CoolMario.tiled-project",
+    "recentFiles": [
+        "level1.tmx",
+        "level0.tmx",
+        "Helpset.tsx",
+        "Tiles.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

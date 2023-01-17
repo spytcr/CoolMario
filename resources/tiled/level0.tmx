@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="1">
+ <tileset firstgid="1" source="Tiles.tsx"/>
+ <tileset firstgid="626" source="Helpset.tsx"/>
+ <layer id="17" name="water" width="50" height="17">
+  <data encoding="base64" compression="zlib">
+   eJztjksKgDAMRJP7n8zPKaqewg+Oi0JoMHEjKMyDBxk6pBEhhBBCCCHE06lIDwc4qs+XUb99j/bX+Uk/u6vNBU5whstNthT1Rthe3Zn17f91zu5c4QZ3ePwgf+WOt/IJNheaqQ==
+  </data>
+ </layer>
+ <layer id="18" name="terrain" width="50" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt080NwjAMhmFnDQqIzgAF0RmAdgn+JuLv1O7UzsPLrQgnHFKBBP6k55JYim21IhaLxWKxWP49AyQYeoy/15o3lROp3fPZFDNkijkWn23Rm+6+R/K639g5GvbSujdFPaTbp9ZXaI5MqT/hjIviipvSwwRp5BwrrLFBgTJwr4mtf3wPS+QS969tscMeBxwD95q+6rW3fzF3OHQjQQ==
+  </data>
+ </layer>
+ <layer id="19" name="background" width="50" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0NsNAUEAheFdlxCXGiRYVaALlIEG3J52twvKcKmCMujBLxnJPvCyM+NE+JMvmZfZPZkgcFcNdTTQdPjdT9dBFxF64i029THAUD3EshHGmKiHOGiKGebqIZbFSJCqh1i2xU49wkF7HNQjHHTGRT0iRyEKKBpX3My5hLJu2ttiRiehekW+su/t432P/OD0hW+zwBIr49njvMbmxZ0Kqp53+a6VObdlK/79andoWBIf
+  </data>
+ </layer>
+ <layer id="20" name="helper" width="50" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAbmghAm/fCkBeXqCokHkllFAXUBuOiweTROjYBSQDQCamALE
+  </data>
+ </layer>
+ <layer id="21" name="coins" width="50" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGDsgyDbQLSANDzb30BqPhMwpGwSgYKQAAM6AAXg==
+  </data>
+ </layer>
+</map>
