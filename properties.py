@@ -29,4 +29,4 @@ level_locked_path = 'resources/hud/level-locked.png'
 health_bar_path = 'resources/hud/health-bar.png'
 coin_path = 'resources/hud/coin.png'
 
-levels = ['resources/tiled/level0.tmx']
+levels = ['resources/tiled/level0.tmx', 'resources/tiled/level1.tmx']

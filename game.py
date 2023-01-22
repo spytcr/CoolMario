@@ -49,7 +49,7 @@ class Game:
             elif self.data['level'] == len(levels) == self.level_num:
                 self.show_final_menu()
         else:
-            self.get_damage(10)
+            self.get_damage(20)
         if self.menu is None:
             self.show_level_selection_menu()
 
