@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="70" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" source="../../../CoolMario/resources/tiled/Tiles.tsx"/>
+ <tileset firstgid="626" source="../../../CoolMario/resources/tiled/Helpset.tsx"/>
+ <layer id="1" name="water" width="70" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0DsKACEQBFG9/8lWb+F6Cz/YibAbiJop1IPKOhjGGAAAAAAAxh47b3d/c055FRb6Wtnf3KuiSvQrq3LAHSfVf1JVA9uv+ic=
+  </data>
+ </layer>
+ <layer id="2" name="terrain" width="70" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0scNAkEMBVDvlkES1EAS1EA6QAmkikgnqIDUBKkJcmiCzwFp8M4sA1rBxV96lx157LGWSCKRSCQSiUQikUh+lxCEIWIh9qcZ32XoEI0c83nVJaq5r9860IUe9GHAapKQgrSFLKs17TRK+h3GIeHzvk+j9n/0PMEZLnCFGztXZxrDBKYwgzm7uwBFKFmosFrTTjOk32EO8hTcf6f21/X0O1/AElawhg2rrUMDmhbarNa00zJ5d/js09Lc823U2XX3+p1vYQd7OMAxoJl4X1WQb5d4cwecSDNW
+  </data>
+ </layer>
+ <layer id="3" name="background" width="70" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt1U1OwkAAhuFSMRJxBSiwMgFdCYJsVVb8s0aPoVwAElbALeAOKIJcgV/1FHIHX2JJipkYFtCZxXzJk5nOtJ0v3dQwdHTUyTG8OJFdRLFEcYFL2UUUyx3ukZZdRLFU8IBH2UUUzBOeUZVdRLE00UJbdhHF0kFXsO6DHwGc4kwgiBDCjjR1NgMMBetXiCGOa0vCNq4kcYOUI02dzQIfgvUMssghbxsLKNrGEsr/vP/dZRgj1y4bb58m57bQY/6CV/TxZu3fmvyTzc1naqjjG0s0dthn9RlMyycXXzhg7sah4P4jePZw/vrMMSaYYob5n31RJ9k5t80j0lro6Ojo/OYHM+8gRw==
+  </data>
+ </layer>
+ <layer id="4" name="helper" width="70" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0SkSACAMA0CmT+b4PwrDIZmp2JVRaVoKAADwQ48zG/HOs6kJO922W24bts837H0y/hEgswnptASe
+  </data>
+ </layer>
+ <layer id="5" name="coins" width="70" height="17">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAIwDCxh/1riiVEZCvwRwAAAKPyfmfr8WofgF8abv0AfQ==
+  </data>
+ </layer>
+</map>
