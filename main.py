@@ -4,7 +4,7 @@ from properties import WIDTH, HEIGHT
 
 
 pygame.init()
-screen = pygame.display.set_mode((WIDTH, HEIGHT))  # , pygame.FULLSCREEN)
+screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
 width, height = screen.get_size()
 clock = pygame.time.Clock()
 running = True

@@ -78,3 +78,33 @@ class LevelSelectionMenu:
         self.locked.draw(self.screen)
         self.back_btn.draw(self.screen)
 
+
+class GameFinalMenu:
+    def __init__(self, screen, money, hp, on_exit):
+        self.screen = screen
+
+        self.background = pygame.sprite.GroupSingle()
+        background_surface = pygame.transform.scale(pygame.image.load(menu_bg_path),
+                                                    (WIDTH * 0.5, HEIGHT * 0.4))
+        strings = ['Вы прошли игру!',
+                   f'Заработано денег: {money}',
+                   f'Оставшейся здоровье: {hp}']
+        font = pygame.font.SysFont('arialblack', background_surface.get_height() // (3 * len(strings)))
+        for i, s in enumerate(strings):
+            sign = font.render(s, True, pygame.Color('white'))
+            background_surface.blit(sign, ((background_surface.get_width() - sign.get_width()) * 0.5,
+                                           background_surface.get_width() * 0.1 + i * sign.get_height()))
+
+        Sprite(background_surface, WIDTH * 0.25, HEIGHT * 0.2, self.background)
+
+        self.back_btn = pygame.sprite.GroupSingle()
+        back_btn_surface = pygame.transform.scale(pygame.image.load(btn_path).convert_alpha(),
+                                                  (WIDTH * 0.2, HEIGHT * 0.1))
+        Button('В главное меню', on_exit, pygame.color.Color(btn_color), back_btn_surface,
+               WIDTH * 0.4, HEIGHT * 0.65, self.back_btn)
+
+    def update(self):
+        self.back_btn.update()
+
+        self.background.draw(self.screen)
+        self.back_btn.draw(self.screen)

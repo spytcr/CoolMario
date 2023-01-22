@@ -4,6 +4,8 @@ from properties import WIDTH, health_bar_path, coin_path
 
 
 class Button(Sprite):
+    _clicked = False
+
     def __init__(self, text, on_click, color, surface, x, y, group, *args):
         super().__init__(surface, x, y, group)
 
@@ -14,17 +16,15 @@ class Button(Sprite):
         sign = font.render(text, True, color)
         self.image.blit(sign, ((self.rect.width - sign.get_width()) // 2, (self.rect.height - sign.get_height()) // 2))
 
-        self._clicked = False
-
     def update(self):
         if pygame.mouse.get_pressed()[0]:
-            if not self._clicked:
-                self._clicked = True
+            if not Button._clicked:
                 x, y = pygame.mouse.get_pos()
                 if self.rect.collidepoint(x, y):
+                    Button._clicked = True
                     self.on_click(*self.args)
-        elif self._clicked:
-            self._clicked = False
+        elif Button._clicked:
+            Button._clicked = False
 
 
 class HealthBar:
@@ -33,7 +33,7 @@ class HealthBar:
 
         self.image = pygame.image.load(health_bar_path).convert_alpha()
         self.rect = self.image.get_rect()
-        self.rect.x += WIDTH - 50 - self.rect.width
+        self.rect.x += WIDTH - 100 - self.rect.width
         self.rect.y += 15
 
         self.bar_rect = pygame.Rect(118 + self.rect.x, 37 + self.rect.y, 380, 34)
