@@ -3,6 +3,8 @@ import os
 WIDTH, HEIGHT = 1980, 1080
 TILE_WIDTH, TILE_HEIGHT = 64, 64
 
+levels = ['resources/tiled/level0.tmx', 'resources/tiled/level1.tmx']
+
 background_path = 'resources/background.png'
 saves_path = 'resources/saves.csv'
 
@@ -28,5 +30,3 @@ level_locked_path = 'resources/hud/level-locked.png'
 
 health_bar_path = 'resources/hud/health-bar.png'
 coin_path = 'resources/hud/coin.png'
-
-levels = ['resources/tiled/level0.tmx', 'resources/tiled/level1.tmx']
